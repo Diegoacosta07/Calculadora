@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 320px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.btn-sumar { background: #00b894; }
+.btn-sumar:hover { background: #019874; }
+
+.btn-restar { background: #d63031; }
+.btn-restar:hover { background: #b22222; }
+
+.btn-multiplicar { background: #fdcb6e; color: #2d3436; }
+.btn-multiplicar:hover { background: #e1b355; }
+
+.btn-dividir { background: #0984e3; }
+.btn-dividir:hover { background: #076bb3; }
+
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2d3436;
+}
+
+
